@@ -9,6 +9,10 @@ export default function Register() {
                     <p>Welcome to Whisper create a new account here</p>
                 </section>
                 <section className="app__register__section">
+                    <label htmlFor="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder={"Enter Username"}/>
+                </section>
+                <section className="app__register__section">
                     <label htmlFor="email">Email Address</label>
                     <input type="email" name="email" id="email" placeholder={"Enter Email Address"}/>
                 </section>
@@ -18,7 +22,8 @@ export default function Register() {
                 </section>
                 <section className="app__register__section">
                     <label htmlFor="password">Confirm Password</label>
-                    <input type="password" name="confirm-password" id="confirm-password" placeholder={"Enter Confirm Password"}/>
+                    <input type="password" name="confirm-password" id="confirm-password"
+                           placeholder={"Enter Confirm Password"}/>
                 </section>
                 <section className="app__register__section">
                     <button className={"primary"}>
