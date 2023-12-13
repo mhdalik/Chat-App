@@ -2,4 +2,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #444;
 }
+
+
+:root {
+  --primary: #FCA311;
+  --secondary: #FFFFFF;
+  --tertiary: #E5E5E5;
+}
+
+b {
+  color: var(--primary);
+}
+
+button {
+  padding-inline: 1.4rem;
+  padding-block: .6rem;
+  outline: none;
+  font-size: 1rem;
+
+  &.primary {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: none;
+    border-radius: .3rem;
+  }
+}
+
+

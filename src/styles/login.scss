@@ -1,0 +1,59 @@
+.app__login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--tertiary);
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    box-shadow: 10px 10px 20px #ddd;
+    border-radius: .5rem;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+    background: var(--secondary);
+    min-width: 30%;
+    
+    @media screen and (max-width: 1200px) {
+      min-width: 50%;
+    }
+
+    @media screen and (max-width: 720px) {
+      min-width: 80%;
+    }
+  }
+
+  &__section {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    align-items: flex-start;
+
+    h2 {
+      color: var(--primary);
+    }
+    p {
+      color: #999;
+    }
+
+    a {
+      font-size: .9rem;
+    }
+
+    input {
+      width: 100%;
+      padding-block: .8rem;
+      padding-inline: 1rem;
+      border-radius: .4rem;
+      border: .5px solid #ddd;
+      outline: none;
+      font-size: .9rem;
+    }
+
+    &:has(a) {
+      margin-bottom: .6rem;
+    }
+  }
+}
