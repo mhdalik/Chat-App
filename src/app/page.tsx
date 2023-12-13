@@ -17,7 +17,7 @@ export default function Home() {
           <input type="password" name="password" id="password" placeholder={"Enter Password"}/>
         </section>
         <section className="app__login__section">
-          <a href="#">Forgot Password?</a>
+          <a href="/forget">Forgot Password?</a>
         </section>
         <section className="app__login__section">
           <button className={"primary"}>
