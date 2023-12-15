@@ -1,8 +1,12 @@
+"use client";
 import "../styles/sidebar.scss";
 import {appConfig} from "@/config/app";
 import {FaRocketchat, FaUsers, FaHashtag, FaImages, FaLink} from "react-icons/fa6";
+import Link from "next/link";
+import {usePathname} from "next/navigation";
 
 export default function Sidebar() {
+    const pathname = usePathname();
     return (
         <div className={"app__sidebar"}>
             <header className="app__sidebar__header">
@@ -10,20 +14,26 @@ export default function Sidebar() {
                 <p>Shaping the world of conversation</p>
             </header>
             <ul className={"app__sidebar__wrapper"}>
-                <li className="app__sidebar__item active">
-                    <FaRocketchat/>
-                    Chat
-                </li>
-                <li className="app__sidebar__item">
+                <Link href={"/chat"}>
+                    <li className={`app__sidebar__item ${pathname == "/chat" ? "active" : ""}`}>
+                        <FaRocketchat/>
+                        Chat
+                    </li>
+                </Link>
+                <Link href={"/chat/contact"}>
+                    <li className={`app__sidebar__item ${pathname == "/chat/contact" ? "active" : ""}`}>
                     <FaUsers/>
-                    Contacts
-                </li>
+                        Contacts
+                    </li>
+                </Link>
+                <Link href={"/chat/topics"}>
+                    <li className={`app__sidebar__item ${pathname == "/chat/topics" ? "active" : ""}`}>
+                        <FaHashtag/>
+                        Topics
+                    </li>
+                </Link>
                 <li className="app__sidebar__item">
-                    <FaHashtag />
-                    Topics
-                </li>
-                <li className="app__sidebar__item">
-                    <FaImages />
+                    <FaImages/>
                     Gallery
                 </li>
                 <li className="app__sidebar__item">

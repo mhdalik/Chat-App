@@ -1,0 +1,10 @@
+.app__contact {
+  padding-inline: 2rem;
+  padding-block: 2rem;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+  }
+}

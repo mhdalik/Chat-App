@@ -60,6 +60,10 @@
     gap: 1rem;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   &__item {
     list-style: none;
     padding-block: .8rem;
