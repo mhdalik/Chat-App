@@ -3,7 +3,7 @@ import '../styles/login.scss';
 import {appConfig} from "@/config/app";
 import { logInUtils } from '@/utils';
 import InputComponent from '@/components/InputComponent';
-import { FormUtilsI } from '@/Interface';
+import { FormUtilsI } from '../interface';
 
 export default function Home() {
   return (

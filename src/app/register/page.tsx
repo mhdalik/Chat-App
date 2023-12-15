@@ -3,7 +3,7 @@ import Link from 'next/link';
 import '../../styles/register.scss';
 import { registerUtils } from '@/utils';
 import InputComponent from '@/components/InputComponent';
-import { FormUtilsI } from '@/Interface';
+import { FormUtilsI } from '../../interface';
 import {appConfig} from "@/config/app";
 
 export default function Register() {
