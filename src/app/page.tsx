@@ -1,4 +1,8 @@
+import Link from 'next/link';
 import '../styles/login.scss';
+import { logInUtils } from '@/utils';
+import InputComponent from '@/Components/InputComponent';
+import { FormUtilsI } from '@/Interface';
 
 export default function Home() {
   return (
@@ -8,16 +12,11 @@ export default function Home() {
           <h2>Whisper</h2>
           <p>Welcome back to Whisper</p>
         </section>
+       {
+        logInUtils.map((data:FormUtilsI)=> <InputComponent data={data} key={data.value}/>)
+       }
         <section className="app__login__section">
-          <label htmlFor="email">Email Address</label>
-          <input type="email" name="email" id="email" placeholder={"Enter Email Address"}/>
-        </section>
-        <section className="app__login__section">
-          <label htmlFor="password">Password</label>
-          <input type="password" name="password" id="password" placeholder={"Enter Password"}/>
-        </section>
-        <section className="app__login__section">
-          <a href="/forget">Forgot Password?</a>
+          <Link href="/forget">Forgot Password?</Link>
         </section>
         <section className="app__login__section">
           <button className={"primary"}>
@@ -25,7 +24,7 @@ export default function Home() {
           </button>
         </section>
         <section className="app__login__section">
-          <a href="/register">Don't have an account? <b>Register</b></a>
+          <Link href="/register">Don't have an account? <b>Register</b></Link>
         </section>
       </form>
     </div>
