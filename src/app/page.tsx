@@ -1,12 +1,13 @@
 import '../styles/login.scss';
+import {appConfig} from "@/config/app";
 
 export default function Home() {
   return (
     <div className={"app__login"}>
       <form action="#" className="app__login__form">
         <section className="app__login__section">
-          <h2>Whisper</h2>
-          <p>Welcome back to Whisper</p>
+          <h2>{appConfig?.appName}</h2>
+          <p>Welcome back to {appConfig?.appName}</p>
         </section>
         <section className="app__login__section">
           <label htmlFor="email">Email Address</label>

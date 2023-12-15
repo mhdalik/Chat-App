@@ -1,0 +1,14 @@
+.app__chat__wrapper {
+  background: var(--tertiary);
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+  &__main {
+    background: var(--secondary);
+    margin-block: 2rem;
+    margin-inline: 2rem;
+    border-radius: .5rem;
+  }
+}

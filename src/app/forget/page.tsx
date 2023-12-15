@@ -1,12 +1,13 @@
 import '../../styles/forget.scss';
+import {appConfig} from "@/config/app";
 
 export default function Forget() {
     return (
         <div className={"app__forget"}>
             <form action="#" className="app__forget__form">
                 <section className="app__forget__section">
-                    <h2>Whisper</h2>
-                    <p>Welcome back to Whisper</p>
+                    <h2>{appConfig?.appName}</h2>
+                    <p>Welcome back to {appConfig?.appName}</p>
                 </section>
                 <section className="app__forget__section">
                     <label htmlFor="email">Email Address</label>

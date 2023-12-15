@@ -1,12 +1,13 @@
 import '../../styles/register.scss';
+import {appConfig} from "@/config/app";
 
 export default function Register() {
     return (
         <div className={"app__register"}>
             <form action="#" className="app__register__form">
                 <section className="app__register__section">
-                    <h2>Whisper</h2>
-                    <p>Welcome to Whisper create a new account here</p>
+                    <h2>{appConfig?.appName}</h2>
+                    <p>Welcome to {appConfig?.appName} create a new account here</p>
                 </section>
                 <section className="app__register__section">
                     <label htmlFor="username">Username</label>
