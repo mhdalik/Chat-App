@@ -14,14 +14,9 @@ export default function Contacts() {
             isActive: false,
         },
         {
-            name: "Aamir Zaidi",
+            name: "Mary Jane",
             memberId: 3243,
             isActive: true,
-        },
-        {
-            name: "John Doe",
-            memberId: 3242,
-            isActive: false,
         },
         {
             name: "Deepanshu Soni",
@@ -34,14 +29,9 @@ export default function Contacts() {
             isActive: false,
         },
         {
-            name: "Aamir Zaidi",
+            name: "Mary Jane",
             memberId: 3243,
             isActive: true,
-        },
-        {
-            name: "John Doe",
-            memberId: 3242,
-            isActive: false,
         },
         {
             name: "Deepanshu Soni",
@@ -54,14 +44,9 @@ export default function Contacts() {
             isActive: false,
         },
         {
-            name: "Aamir Zaidi",
+            name: "Mary Jane",
             memberId: 3243,
             isActive: true,
-        },
-        {
-            name: "John Doe",
-            memberId: 3242,
-            isActive: false,
         },
         {
             name: "Deepanshu Soni",
@@ -74,8 +59,13 @@ export default function Contacts() {
             isActive: false,
         },
         {
-            name: "Aamir Zaidi",
+            name: "Mary Jane",
             memberId: 3243,
+            isActive: true,
+        },
+        {
+            name: "Deepanshu Soni",
+            memberId: 3241,
             isActive: true,
         },
         {
@@ -83,6 +73,11 @@ export default function Contacts() {
             memberId: 3242,
             isActive: false,
         },
+        {
+            name: "Mary Jane",
+            memberId: 3243,
+            isActive: true,
+        }
     ];
     return (
         <div className="app__contact">

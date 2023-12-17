@@ -28,36 +28,6 @@ export default function Chat() {
                 <ChatBubble content={"Yeah there are quite a few folks interested in learning new things and I think we really should focus on the teaching part not so much the profit"}/>
                 <ChatBubble isFrom={true} content={"Hey how are you?"}/>
                 <ChatBubble content={"I'm good what about you?"}/>
-                <ChatBubble isFrom={true} content={"I'm good too, Just wanted to ask and see how many people are interested in learning"}/>
-                <ChatBubble content={"Yeah there are quite a few folks interested in learning new things and I think we really should focus on the teaching part not so much the profit"}/>
-                <ChatBubble isFrom={true} content={"Hey how are you?"}/>
-                <ChatBubble content={"I'm good what about you?"}/>
-                <ChatBubble isFrom={true} content={"I'm good too, Just wanted to ask and see how many people are interested in learning"}/>
-                <ChatBubble content={"Yeah there are quite a few folks interested in learning new things and I think we really should focus on the teaching part not so much the profit"}/>
-                <ChatBubble isFrom={true} content={"Hey how are you?"}/>
-                <ChatBubble content={"I'm good what about you?"}/>
-                <ChatBubble isFrom={true} content={"I'm good too, Just wanted to ask and see how many people are interested in learning"}/>
-                <ChatBubble content={"Yeah there are quite a few folks interested in learning new things and I think we really should focus on the teaching part not so much the profit"}/>
-                <ChatBubble isFrom={true} content={"Hey how are you?"}/>
-                <ChatBubble content={"I'm good what about you?"}/>
-                <ChatBubble isFrom={true} content={"I'm good too, Just wanted to ask and see how many people are interested in learning"}/>
-                <ChatBubble content={"Yeah there are quite a few folks interested in learning new things and I think we really should focus on the teaching part not so much the profit"}/>
-                <ChatBubble isFrom={true} content={"Hey how are you?"}/>
-                <ChatBubble content={"I'm good what about you?"}/>
-                <ChatBubble isFrom={true} content={"I'm good too, Just wanted to ask and see how many people are interested in learning"}/>
-                <ChatBubble content={"Yeah there are quite a few folks interested in learning new things and I think we really should focus on the teaching part not so much the profit"}/>
-                <ChatBubble isFrom={true} content={"Hey how are you?"}/>
-                <ChatBubble content={"I'm good what about you?"}/>
-                <ChatBubble isFrom={true} content={"I'm good too, Just wanted to ask and see how many people are interested in learning"}/>
-                <ChatBubble content={"Yeah there are quite a few folks interested in learning new things and I think we really should focus on the teaching part not so much the profit"}/>
-                <ChatBubble isFrom={true} content={"Hey how are you?"}/>
-                <ChatBubble content={"I'm good what about you?"}/>
-                <ChatBubble isFrom={true} content={"I'm good too, Just wanted to ask and see how many people are interested in learning"}/>
-                <ChatBubble content={"Yeah there are quite a few folks interested in learning new things and I think we really should focus on the teaching part not so much the profit"}/>
-                <ChatBubble isFrom={true} content={"Hey how are you?"}/>
-                <ChatBubble content={"I'm good what about you?"}/>
-                <ChatBubble isFrom={true} content={"I'm good too, Just wanted to ask and see how many people are interested in learning"}/>
-                <ChatBubble content={"Yeah there are quite a few folks interested in learning new things and I think we really should focus on the teaching part not so much the profit"}/>
             </div>
             <div className="app__chat__actions">
                 <div className="app__chat__actions__left">
