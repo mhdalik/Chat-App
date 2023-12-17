@@ -5,7 +5,7 @@ import {FaRocketchat, FaUsers, FaHashtag, FaImages, FaLink} from "react-icons/fa
 import Link from "next/link";
 import {usePathname} from "next/navigation";
 
-export default function Sidebar() {
+export default function SidebarComponent() {
     const pathname = usePathname();
     return (
         <div className={"app__sidebar"}>
